@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "checkJs": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ES2020"
+  }
+}

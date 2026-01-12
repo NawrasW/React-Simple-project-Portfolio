@@ -16,7 +16,7 @@ export default function Services() {
         <h2 className="mb-5">Services</h2>
         <div className="row g-4">
           {services.map((s, i) => (
-            <div className="col-sm-6 col-md-3" key={i}>
+            <div className="col-sm-6 col-md-3 " key={i}>
               <div className="service-card p-5 h-100 d-flex flex-column align-items-center justify-content-center">
                 <i className={`${s.icon} mb-3`} style={{ fontSize: "2.5rem", color: "#00ffa3" }}></i>
                 <h5>{s.title}</h5>
