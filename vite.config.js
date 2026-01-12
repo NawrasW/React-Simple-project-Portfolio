@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "https://nawrasw.github.io/React-Simple-project-Portfolio/", 
+  base: "/React-Simple-project-Portfolio/", 
   plugins: [react()],
 })
